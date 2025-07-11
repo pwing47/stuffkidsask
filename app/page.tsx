@@ -64,12 +64,12 @@ export default function Page() {
     return (
       <div className="min-h-screen bg-gray-50">
         <header className="bg-white border-b border-gray-200 sticky top-0 z-10">
-          <div className="container mx-auto px-6 py-8">
-            <h1 className="text-4xl md:text-5xl font-bold text-center text-gray-900">Stuff My Kids Ask</h1>
-            <p className="text-center text-gray-600 mt-3 text-lg font-medium">
+          <div className="container mx-auto px-6 py-6">
+            <h1 className="text-3xl md:text-3xl font-bold text-center text-gray-900">Stuff My Kids Ask</h1>
+            <p className="text-center text-gray-600 mt-3 text-md font-medium">
               Curious questions deserve thoughtful answers
             </p>
-            <div className="flex items-center justify-center gap-3 mt-6">
+            <div className="flex items-center justify-center gap-3 mt-4">
               <span className="text-sm font-medium text-gray-600">Select age:</span>
               <div className="flex gap-1">
                 {ages.map((age) => (

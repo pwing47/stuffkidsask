@@ -65,7 +65,7 @@ export default function Page() {
       <div className="min-h-screen bg-gray-50">
         <header className="bg-white border-b border-gray-200 sticky top-0 z-10">
           <div className="container mx-auto px-6 py-8">
-            <h1 className="text-4xl md:text-5xl font-bold text-center text-gray-900">Things My Kids Ask</h1>
+            <h1 className="text-4xl md:text-5xl font-bold text-center text-gray-900">Stuff My Kids Ask</h1>
             <p className="text-center text-gray-600 mt-3 text-lg font-medium">
               Curious questions deserve thoughtful answers
             </p>
@@ -99,7 +99,7 @@ export default function Page() {
       <div className="min-h-screen bg-gray-50">
         <header className="bg-white border-b border-gray-200 sticky top-0 z-10">
           <div className="container mx-auto px-6 py-8">
-            <h1 className="text-4xl md:text-5xl font-bold text-center text-gray-900">Things My Kids Ask</h1>
+            <h1 className="text-4xl md:text-5xl font-bold text-center text-gray-900">Stuff My Kids Ask</h1>
             <p className="text-center text-gray-600 mt-3 text-lg font-medium">
               Curious questions deserve thoughtful answers
             </p>
@@ -182,9 +182,9 @@ export default function Page() {
                 <CardHeader className="pb-4">
                   <div className="flex items-start justify-between gap-4">
                     <CardTitle className="flex items-center gap-3 text-xl font-semibold text-gray-900 flex-1">
-                      <div className="flex items-center justify-center w-10 h-10 rounded-lg bg-gray-100 text-gray-700 group-hover:bg-gray-200 transition-colors">
+                      {/* <div className="flex items-center justify-center w-10 h-10 rounded-lg bg-gray-100 text-gray-700 group-hover:bg-gray-200 transition-colors">
                         {iconMap[item.icon_name] || <AlertCircle className="w-5 h-5" />}
-                      </div>
+                      </div> */}
                       {item.question}
                     </CardTitle>
                     <div className="text-right text-xs text-gray-400 mt-1 flex-shrink-0">
